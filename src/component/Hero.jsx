@@ -3,9 +3,10 @@ import coffeepods from "../assets/bg_img_hero.png";
 import topcoffee from "../assets/top_coffee.svg";
 import coffee from "../assets/img-hero.png";
 import cart from "../assets/cart.png";
+import Floating from "./Floating";
 const Hero = () => {
 	return (
-		<header className=" relative bg-bg-picture h-full w-full pt-4 pb-60  ">
+		<header className=" relative bg-bg-picture h-full w-full pt-4 pb-60  mb-[80px] ">
 			<div className="relative z-10 px-3 my-2">
 				<Navbar />
 			</div>
@@ -29,7 +30,7 @@ const Hero = () => {
 						<button className="bg-[#2F2105] text-white px-10 py-2 rounded-full flex flex-row gap-2 items-center">
 							order <img src={cart} alt="" />
 						</button>
-						<button className="text-orange text-bold text-white px-10 py-2 rounded-full">
+						<button className="text-orange text-bold px-10 py-2 rounded-full">
 							more menu
 						</button>
 					</div>
@@ -46,8 +47,9 @@ const Hero = () => {
 			<img
 				src={coffeepods}
 				alt=""
-				className="h-[394px] w-[5554px absolute top-[56%] left-[28px] "
+				className="h-[394px] w-[5554px absolute top-[55.4%] left-[28px] "
 			/>
+			<Floating />
 		</header>
 	);
 };
