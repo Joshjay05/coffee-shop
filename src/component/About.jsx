@@ -2,7 +2,7 @@ import bgImage from "../assets/aboutbg.png";
 import abt from "../assets/abtimg.png";
 const About = () => {
 	return (
-		<div className="bg-hero h-screen relative mt-[260px]">
+		<div className="bg-hero h-full relative mt-[260px] mb-[130px]">
 			<img
 				src={bgImage}
 				alt=""

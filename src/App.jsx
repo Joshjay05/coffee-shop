@@ -2,6 +2,7 @@ import About from "./component/About";
 import Delivery from "./component/Delivery";
 import Hero from "./component/Hero";
 import SpecialMenu from "./component/SpecialMenu";
+import Testimonials from "./component/testimonials";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Delivery />
 			<About />
 			<SpecialMenu />
+			<Testimonials />
 		</main>
 	);
 }
