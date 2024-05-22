@@ -13,10 +13,10 @@ const Hero = () => {
 			<img
 				src={topcoffee}
 				alt=""
-				className="w-[58%] h-[76vh] lg:w-{559px} lg:h-[394px] absolute top-lg:[-34px] lg:left-[875px] md:w-[54%] md:left-[50%] md:h-[41vh] left-[54%] top-[3%]"
+				className="w-[58%] h-[76vh] lg:w-{559px} lg:h-[394px] absolute top-lg:[-34px] lg:left-[875px] md:w-[54%] md:left-[50%] md:h-[41vh] left-[54%] top-[3%] z--10 "
 			/>
 			<section className="flex flex-row items-center justify-evenly my-16">
-				<article className="flex flex-col gap-10 z-40 sm:ml-2 md:ml-3">
+				<article className="flex flex-col gap-10  sm:ml-2 md:ml-3">
 					<h1 className="lg:text-4xl md:text-[24px] leading-10">
 						Enjoy your <span className="text-orange">coffee</span> <br />
 						before your activity
@@ -36,11 +36,11 @@ const Hero = () => {
 					</div>
 				</article>
 
-				<article className="z-40 sm:mr-5 ">
+				<article className=" sm:mr-5 z-10">
 					<img
 						src={coffee}
 						alt=""
-						className="lg:h-[50vh] lg:w-[40vw] md:w-[40vw]  sm:h-full sm:max-w-[80px] sm:mb-12"
+						className="lg:h-[50vh] lg:w-[40vw] md:w-[40vw]  sm:h-full sm:max-w-[80px] sm:mb-12 z-10"
 					/>
 				</article>
 			</section>

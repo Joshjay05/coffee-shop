@@ -13,7 +13,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="flex flex-row items-center justify-between lg:justify-evenly gap-20 z-3">
+		<nav className="flex flex-row items-center justify-between lg:justify-evenly gap-20 z-30">
 			<img src={logo} alt="logo" />
 
 			{/* Large screen */}
@@ -38,18 +38,18 @@ const Navbar = () => {
 
 			{/* Small screen */}
 			<div
-				className="lg:hidden inline-block cursor-pointer"
+				className="lg:hidden inline-block cursor-pointer z-30"
 				onClick={toggleMenu}>
 				{showMenu ? (
-					<IoCloseCircleOutline className="h-4 w-4" />
+					<IoCloseCircleOutline className="h-4 w-4 z-30" />
 				) : (
-					<GiHamburgerMenu className="h-4 w-4" />
+					<GiHamburgerMenu className="h-4 w-4 z-30" />
 				)}
 			</div>
 			<ul
 				className={
 					showMenu
-						? "flex flex-col justify-center p-12 fixed top-14 right-0 bg-slate-100 rounded-lg transition-all duration-500 shadow-md"
+						? "flex flex-col justify-center p-12 fixed top-[4.5rem] left-0 bg-slate-100 rounded-lg transition-all duration-500 z-30"
 						: "hidden"
 				}>
 				<article className="flex flex-col gap-5">
