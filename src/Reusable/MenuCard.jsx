@@ -1,23 +1,34 @@
 import PropTypes from "prop-types";
 
-const MenuCard = ({ src, title, ratings, desc, src2, icon, num }) => {
+const MenuCard = ({ src, title, ratings, desc, src2, icon: Icon, num }) => {
 	return (
-		<section className="border border-slate-100 rounded-md shadow ">
-			<article className="relative">
-				<img src={src} alt="" className="relative" />
-				<p className="absolute">
-					{num}
-					{icon}
+		<section className="border bg-white border-slate-100 rounded-md shadow flex flex-col  py-[14px]">
+			<article className="relative  py-4 px-4">
+				<img
+					src={src}
+					alt=""
+					className="relative h-[228px] w-[322px] rounded-xl"
+				/>
+				<p className="absolute bg-white border border-slate-50 flex flex-row gap-1 top-8 left-8 shadow-md rounded-full px-1">
+					{ratings && (
+						<span className="flex items-center text-lg">{ratings}</span>
+					)}
+					{Icon && (
+						<span className="flex items-center text-lg">
+							<Icon className="text-yellow " />
+						</span>
+					)}
 				</p>
 			</article>
-			<article className="flex flex-col gap-3">
-				<div className="flex flex-row justify-between">
-					<p>{title}</p> <p>{ratings}</p>
+			<article className="flex flex-col mx-[8%] gap-3">
+				<div className="flex flex-row justify-between items-center">
+					<p className="font-[600] text-[24px]">{title}</p> <p>{num}</p>
 				</div>
-				<div className="flex flex-row justify-between">
-					<p>{desc}</p>
-
-					<img src={src2} alt="" />
+				<div className="flex flex-row justify-between items-center">
+					<p className="text-[14px] text-[#7E7D7A] w-[50%] font-[600]">
+						{desc}
+					</p>
+					<img src={src2} alt="" className="h-6 w-6 bg-orange rounded-full" />
 				</div>
 			</article>
 		</section>

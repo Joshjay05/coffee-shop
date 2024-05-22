@@ -18,7 +18,7 @@ const Hero = () => {
 			<section className="flex flex-row items-center justify-evenly my-16">
 				<article className="flex flex-col gap-10">
 					<h1 className="lg:text-4xl md:text-base sm:text-xs leading-10">
-						Enjoy your <span>coffee</span> <br />
+						Enjoy your <span className="text-orange">coffee</span> <br />
 						before your activity
 					</h1>
 					<p className="text-[18px] break-words w-[65%]">
