@@ -4,13 +4,13 @@ const TestimonialCard = ({ src, text, title }) => {
 		<div>
 			<img src={src} alt="" className=" relative w-[256px] h-[280px]" />
 
-			<div className="grid gap-3 ml-6 absolute right[50%] top-[61%]  left-[] bg-[#FFCB7C] max-w-[16vw] max-h-[38%] p-[10px] rounded-lg ">
+			<div className="grid gap-3 ml-6 absolute right[50%] top-[61%]  md:ml-2 bg-[#FFCB7C] max-w-[16vw] h-[38%] md:max-w-[25vw] p-[10px] md:p-[4px] rounded-lg  z-40">
 				<p className="text-lg font-[600] w-[10%]">{title}</p>
 				<p className="text-[#2F2105] text-[14px] leading-[21px] font-[400]">
 					{text}
 				</p>
 			</div>
-			<div className="w-[28.8%] h-[41%] bg-[#ffa81c55] rounded-md absolute ml-[39px] top-[58%] "></div>
+			<div className="w-[28.8%] md:w-[30%] h-[44%] bg-[#ffa81c55] rounded-md absolute ml-[39px] md:ml-[10px] top-[58%] "></div>
 		</div>
 	);
 };
