@@ -26,16 +26,20 @@ const CoffeCard = ({
 						</span>
 					)}
 				</p>
-				<div className="w-[20.8%] h-[13%] bg-[#ffffff34] rounded-xl absolute ml-[4px] top-[10%] "></div>
+				<div className="w-[20.8%] md:w-[34%] sm:w-[25%] h-[13%] bg-[#ffffff34] rounded-xl absolute ml-[4px] top-[10%] "></div>
 			</article>
 			<article className="flex flex-col gap-3">
-				<div className="flex flex-row">
+				<div className="flex flex-row lg:justify-between sm:gap-[100px]">
 					<span>{title}</span> <span>{num}</span>
 				</div>
-				<div className="flex flex-row justify-around">
-					<div className="flex flex-row">
-						<p className="border border-orange rounded-md px-2">{options1}</p>{" "}
-						<p className="border border-orange rounded-md px-2">{options2}</p>
+				<div className="flex flex-row justify-between md:gap-[20px] sm:gap-[14px]">
+					<div className="flex flex-row md:gap-[20px] sm:gap-[14px]">
+						<span className="border border-yellow rounded-md px-2  shadow-white ">
+							{options1}
+						</span>{" "}
+						<span className="border border-yellow shadow-white rounded-md px-2">
+							{options2}
+						</span>
 					</div>
 
 					<img src={src2} alt="" />

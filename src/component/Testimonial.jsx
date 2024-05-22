@@ -4,7 +4,7 @@ import { TestimonialMenu } from "../constant";
 
 const Testimonials = () => {
 	return (
-		<div className="relative md:mt-[10rem] md:mb-[50rem]">
+		<div className="relative md:mt-[10rem]">
 			{/* <h1>testimonials</h1> */}
 			<img
 				src={bgImage}
@@ -18,7 +18,7 @@ const Testimonials = () => {
 					coffee
 				</p>
 			</div>
-			<div className="absolute top-[15%] left-[40%] w-[60%] grid lg:grid-cols-3 md:grid-cols-3 lg:gap-[4rem] md:w-[90%] md:left-[3%] md:top-[33%] md-gap-[87px]">
+			<div className="absolute top-[15%] left-[40%] w-[60%] grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 lg:gap-[4rem] md:w-[90%] md:left-[3%] md:top-[48%] sm:w-full sm:top-[61%] md-gap-[87px] sm:left-[1%]">
 				{TestimonialMenu.map((item) => (
 					<TestimonialCard key={item.id} {...item} />
 				))}
