@@ -13,24 +13,24 @@ const Hero = () => {
 			<img
 				src={topcoffee}
 				alt=""
-				className="w-[70%] h-[40vh] lg:w-{559px} lg:h-[394px] absolute top-lg:[-34px] lg:left-[875px] left-[40%] top-[3%]"
+				className="w-[58%] h-[76vh] lg:w-{559px} lg:h-[394px] absolute top-lg:[-34px] lg:left-[875px] md:w-[54%] md:left-[50%] md:h-[41vh] left-[54%] top-[3%]"
 			/>
 			<section className="flex flex-row items-center justify-evenly my-16">
-				<article className="flex flex-col gap-10 z-40 sm:ml-2">
-					<h1 className="lg:text-4xl md:text-base leading-10">
+				<article className="flex flex-col gap-10 z-40 sm:ml-2 md:ml-3">
+					<h1 className="lg:text-4xl md:text-[24px] leading-10">
 						Enjoy your <span className="text-orange">coffee</span> <br />
 						before your activity
 					</h1>
-					<p className="text-[18px] break-words lg:w-[65%] w-[90%]">
+					<p className="text-[18px] break-words lg:w-[65%] w-[90%] md:w-[90%]">
 						Boost your productivity and build your <br /> mood with a glass of
 						coffee in the morning
 					</p>
 
 					<div className="flex gap-2">
-						<button className="bg-[#2F2105] text-white px-10 lg:py-2 rounded-full flex flex-row gap-2 items-center sm:h-6">
+						<button className="bg-[#2F2105] text-white lg:px-10 px-4 lg:py-2 rounded-full flex flex-row gap-2 items-center sm:h-6">
 							order <img src={cart} alt="" />
 						</button>
-						<button className="text-orange text-bold px-10 py-2 rounded-full">
+						<button className="text-orange text-bold lg:px-10 py-2 sm:px-[0.5rem] rounded-full">
 							more menu
 						</button>
 					</div>
@@ -40,7 +40,7 @@ const Hero = () => {
 					<img
 						src={coffee}
 						alt=""
-						className="lg:h-[50vh] lg:w-[40vw]  sm:h-full sm:max-w-[80px] sm:mb-12"
+						className="lg:h-[50vh] lg:w-[40vw] md:w-[40vw]  sm:h-full sm:max-w-[80px] sm:mb-12"
 					/>
 				</article>
 			</section>

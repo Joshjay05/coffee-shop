@@ -3,12 +3,12 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		screens: {
-			md: { max: "767px" },
+			md: { min: "640px", max: "1024px" },
 			// => @media (max-width: 767px) { ... }
 
 			sm: { max: "639px" },
 
-			lg: "1024px",
+			lg: { min: "1025px" },
 			// => @media (min-width: 1024px) { ... }
 
 			xl: "1280px",
@@ -76,7 +76,7 @@ export default {
 				"3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
 			},
 			backgroundImage: {
-				hero: "url('./asset/hero.png')",
+				hero: "url('./asset/aboutbg.png')",
 				card: "url('./images/thumbnail-background.svg')",
 				// 'ccar':'url()'
 			},

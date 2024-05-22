@@ -4,7 +4,7 @@ import { deliveryMenu } from "../constant";
 
 const Delivery = () => {
 	return (
-		<div className="flex flex-col gap-10 justify-center lg:mt-[18rem] lg:mx-[10%] mt-[70rem] mx-[4%] ">
+		<div className="flex flex-col gap-10 justify-center lg:mt-[18rem] lg:mx-[10%] mt-[70rem] md:mt-[20rem] mx-[4%] ">
 			<h1 className="lg:text-[32px] text-[24px] font-[600]">
 				How to use delivery{" "}
 				<span className=" border-orange border-b-4 my-8">service</span>

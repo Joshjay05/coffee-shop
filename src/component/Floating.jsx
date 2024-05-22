@@ -4,7 +4,7 @@ import background from "../assets/Rectangle.png";
 const Floating = () => {
 	return (
 		<main className="relative ">
-			<div className="absolute grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mx-[10%] z-20 ">
+			<div className="absolute grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4 mx-[10%] md:mx-[4%] md:mt-[40px] z-20 ">
 				{coffeeDetail.map((e) => (
 					<CoffeCard
 						key={e.id}
