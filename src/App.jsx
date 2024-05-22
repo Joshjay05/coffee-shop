@@ -3,6 +3,7 @@ import Delivery from "./component/Delivery";
 import Hero from "./component/Hero";
 import SpecialMenu from "./component/SpecialMenu";
 import Testimonials from "./component/testimonials";
+import Footer from "./component/Footer";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<About />
 			<SpecialMenu />
 			<Testimonials />
+			<Footer />
 		</main>
 	);
 }

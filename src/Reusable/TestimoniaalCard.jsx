@@ -10,7 +10,7 @@ const TestimonialCard = ({ src, text, title }) => {
 					{text}
 				</p>
 			</div>
-			<div className="w-[28.4%] h-[42%] bg-[#ffa81c55] rounded-md absolute ml-[39px] top-[58%] "></div>
+			<div className="w-[28.8%] h-[41%] bg-[#ffa81c55] rounded-md absolute ml-[39px] top-[58%] "></div>
 		</div>
 	);
 };

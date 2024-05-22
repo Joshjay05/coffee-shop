@@ -10,6 +10,7 @@ body,
 	height: 100%;
 	width: 100%;
 	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
 	/* font-weight: 100; */
 	/* @apply text-gray-500 */
 }
