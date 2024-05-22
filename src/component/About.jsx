@@ -13,7 +13,7 @@ const About = () => {
 				alt=""
 				className="lg:absolute md:hidden sm:hidden top-[-10%] left-[237.27px] h-[509px] w-[370px]"
 			/>
-			<div className="absolute top-[8%] left-[55%] w-[28%]">
+			<div className="absolute top-[8%] lg:left-[55%] left-[16%] lg:w-[28%]">
 				<h4 className="text-[32px] font-[600] my-2">
 					About <span className=" border-orange border-b-4 my-8">us </span>
 				</h4>
@@ -27,7 +27,7 @@ const About = () => {
 					worldwide.
 				</p>
 
-				<button className="bg-[#2F2105] text-[#F4AE26] px-[24px] py-[10px] rounded-full flex flex-row gap-2 items-center">
+				<button className="bg-[#2F2105] text-[#F4AE26] px-[24px] py-[10px] rounded-full flex flex-row gap-2 items-center md:my-10 md:text-base">
 					More menu
 				</button>
 			</div>
