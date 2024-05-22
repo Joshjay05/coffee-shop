@@ -19,18 +19,14 @@ const CoffeCard = ({
 					className="relative h-[226px] w-[307px] rounded-xl"
 				/>
 				<p className="absolute bg-white border border-slate-50 flex flex-row gap-1 top-8 left-8 shadow-md rounded-full px-1">
-					{ratings && (
-						<span className="flex items-center">
-							{/* <FaStar className="text-yellow-500 mr-1" />  */}
-							{ratings}
-						</span>
-					)}
+					{ratings && <span className="flex items-center">{ratings}</span>}
 					{Icon && (
 						<span className="flex items-center">
 							<Icon className="text-yellow" />
 						</span>
 					)}
 				</p>
+				<div className="w-[20.8%] h-[13%] bg-[#ffffff34] rounded-xl absolute ml-[4px] top-[10%] "></div>
 			</article>
 			<article className="flex flex-col gap-3">
 				<div className="flex flex-row">

@@ -19,6 +19,7 @@ const MenuCard = ({ src, title, ratings, desc, src2, icon: Icon, num }) => {
 						</span>
 					)}
 				</p>
+				<div className="w-[21.8%] h-[13%] bg-[#ffffff34] rounded-xl absolute ml-[4px] top-[10%] "></div>
 			</article>
 			<article className="flex flex-col mx-[8%] gap-3">
 				<div className="flex flex-row justify-between items-center">
