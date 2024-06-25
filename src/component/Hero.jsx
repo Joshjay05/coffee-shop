@@ -13,7 +13,7 @@ const Hero = () => {
 			<img
 				src={topcoffee}
 				alt=""
-				className="w-[58%] h-[76vh] lg:w-{559px} lg:h-[394px] absolute top-lg:[-34px] lg:left-[875px] md:w-[54%] md:left-[50%] md:h-[41vh] left-[54%] top-[3%] z--10 "
+				className="w-[62%] h-[76vh] lg:w-{559px} lg:h-[394px] absolute top-lg:[-34px] lg:left-[875px] md:w-[54%] md:left-[50%] md:h-[60vh] left-[54%] sm:top-[-6%] top-[3%] z--10 "
 			/>
 			<section className="flex flex-row items-center justify-evenly my-16">
 				<article className="flex flex-col gap-10  sm:ml-2 md:ml-3">
