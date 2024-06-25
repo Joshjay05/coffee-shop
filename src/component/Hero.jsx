@@ -40,7 +40,7 @@ const Hero = () => {
 					<img
 						src={coffee}
 						alt=""
-						className="lg:h-[50vh] lg:w-[40vw] md:w-[40vw]  sm:h-full sm:max-w-[80px] sm:mb-12 z-10"
+						className="lg:h-[50vh] lg:w-[40vw] md:w-[40vw]  sm:h-full sm:max-w-[30vw] sm:mb-12 z-10"
 					/>
 				</article>
 			</section>
